@@ -851,13 +851,13 @@ textarea.input {
     background-color: #fff;
   }
 
-  .icon-menu:hover::before {
+  .menu-open .icon-menu:hover::before {
     -webkit-transform: translate(0, 3px);
         -ms-transform: translate(0, 3px);
             transform: translate(0, 3px);
   }
 
-  .icon-menu:hover::after {
+  .menu-open .icon-menu:hover::after {
     -webkit-transform: translate(0, -3px);
         -ms-transform: translate(0, -3px);
             transform: translate(0, -3px);
