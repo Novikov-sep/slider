@@ -851,16 +851,28 @@ textarea.input {
     background-color: #fff;
   }
 
-  .menu-open .icon-menu:hover::before {
+  .icon-menu:hover::before {
     -webkit-transform: translate(0, 3px);
         -ms-transform: translate(0, 3px);
             transform: translate(0, 3px);
   }
 
-  .menu-open .icon-menu:hover::after {
+  .icon-menu:hover::after {
     -webkit-transform: translate(0, -3px);
         -ms-transform: translate(0, -3px);
             transform: translate(0, -3px);
+  }
+
+  .menu-open .icon-menu:hover::before {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
+  }
+
+  .menu-open .icon-menu:hover::after {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
   }
 
   .bottom-slid__btn:hover {
