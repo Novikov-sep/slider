@@ -864,15 +864,17 @@ textarea.input {
   }
 
   .menu-open .icon-menu:hover::before {
-    -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0);
+    top: calc(50% - 0.0625rem);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
 
   .menu-open .icon-menu:hover::after {
-    -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0);
+    bottom: calc(50% - 0.0625rem);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
   }
 
   .bottom-slid__btn:hover {
